@@ -1,0 +1,156 @@
+body {
+  background-color: #f0daae;
+  font-family: "Tangerine";
+}
+nav {
+  margin-left: -10px;
+  margin-top: -8px;
+  margin-right: -10px;
+  width: 100vw;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #482e1d;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #a3966a;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.7s ease;
+}
+li a:hover {
+  background-color: #895d2b;
+  padding: 21px;
+}
+#abc {
+  color: #f0daae;
+  font-size: 100px;
+}
+#xd {
+  width: 100vw;
+  height: 40vw;
+  margin-left: -10px;
+}
+#cc p {
+  font-size: 40px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #a3966a;
+  opacity: 0.8;
+}
+#cc h1 {
+  font-size: 60px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #a3966a;
+  opacity: 0.6;
+}
+footer {
+  height: 200px;
+  width: 100vw;
+  margin-left: -10px;
+  margin-top: 100px;
+  margin-right: -10px;
+  background-color: #482e1d;
+}
+#pushin {
+  position: absolute;
+  width: 100px;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%);
+}
+#ig {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+#twt {
+  margin-top: 10px;
+  width: 35px;
+  height: 30px;
+}
+#face {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+#a {
+  font-size: 35px;
+}
+#latte {
+  width: 100vw;
+  height: 500px;
+  margin-left: -10px;
+}
+#l h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #a3966a;
+  opacity: 0.6;
+}
+#o {
+  height: 10px;
+  width: 30px;
+}
+.lm {
+  font-size: 35px;
+}
+.cafeterias {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 224px, 225px;
+  width: 1200px;
+  height: 460px;
+  gap: 10px;
+  color: #f0daae;
+  text-shadow: 2px 2px 3px black;
+}
+.imagenCaf img{
+    max-width: 224px;
+    max-height: 225px;
+}
+.info{
+    font-size: 30px;
+    grid-column: 2/3;
+    background-color: #482e1d;
+    width: 400px;
+    height: 450px;
+    margin-left: -80px;
+    margin-right: 450px;
+    border-radius: 10px;
+}
+.redes{
+    margin-top: -210px;
+    width: 224px;
+    height: 200px;
+    background-color: #482e1d;
+    border-radius: 10px;
+}
+.redes p{
+    font-size: 40px;
+    text-align: center;
+    padding: 0;
+}
+.redes img{
+    margin-top: -100px;
+    padding: 0;
+    margin-left: 40%;
+    height: 50px;
+    width: 50px;
+}

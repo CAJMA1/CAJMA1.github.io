@@ -1,0 +1,149 @@
+body{
+    background-color: #f0daae;
+    font-family: 'Tangerine';
+}
+nav{
+    margin-left: -10px;
+    margin-top: -8px;
+    margin-right: -10px;
+}
+#Bar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #482e1d;
+}
+.NavBar{
+    float: left;
+}
+.NavBar a{
+    display: block;
+    color: #a3966a;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.NavBar a:hover{
+    background-color: #895d2b;
+    padding: 20px;
+}
+#imagenPrin {
+    margin-left: -20px;
+    margin-right: -20px;
+    position: relative;
+    overflow: hidden;
+}
+#imagenPrin img{
+    width: 105vw;
+    min-width: 1200px;
+    max-width: 105%;
+    height: 400px;
+    margin-left: -20px;
+}
+#imagenPrin p{
+    color: #f0daae;
+    text-shadow: 2px 3px 2px black;
+    font-size: 40px;
+    background-color: #482e1d;
+    opacity: 0.7;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%);
+}
+ 
+.coffee{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 100px;
+    row-gap: 10px;
+}
+.coffee div{
+    margin-top: 60px;
+    float: left;
+    background-color: #895d2b;
+    border-radius: 30px;
+    margin-left: 80px;
+    width: 300px;
+    height: 400px;
+    view-timeline: --divs;
+    view-timeline-axis:  block;
+    animation-name: boxes;
+    animation-range: entry 5%;
+    animation-timeline: --divs;
+    text-align: center;
+    font-weight: 600;
+    color: #482e1d;
+    font-size: 35px;
+}
+.coffee img{
+        border-radius: 40px;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        transition: all 0.5s ease;
+        width: 268px;
+        height: 188px;
+}
+@keyframes boxes{
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+footer{
+    height: 200px;
+    width: 100vw;
+    margin-top: 100px;
+    margin-left: -10px;
+    padding: 0;
+    background-color: #482e1d;
+}
+#pIcons{
+    margin-left: 40px;
+    margin-bottom: -5px;
+    font-size: 30px;
+}
+#icons{   
+    margin-bottom: -10px;
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    gap: 10px;
+}
+#ig{
+    float: left;
+    width: 50px;
+    height: 50px;
+    transition: all 5ms ease;
+}
+#face{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    transition: all 5ms ease;
+}
+#x{
+    margin-top: 10px;
+    width: 35px;
+    height: 30px;
+    transition: all 5ms ease;
+}
+#ig:hover{
+    width: 55px;
+    height: 55px;
+}
+#face:hover{
+    width: 35px;
+    height: 35px;
+}
+#x:hover{
+    width: 40px;
+    height: 35px;
+}
