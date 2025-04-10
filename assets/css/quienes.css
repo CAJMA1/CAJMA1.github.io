@@ -2,18 +2,8 @@
     padding: 5rem;
     text-align: center;
 }
-.quienes__titulo{
-    color: #da2b1f;
-    font-family: pacifico, cursive;
-    font-size: 3.1875rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
-}
-.quienes__descripcion{
-    color: #595959;
-    font-size: 1.75rem;
-    font-weight: 100;
-} 
+
+ 
 .personas{
     display: flex;
     justify-content: space-between;
@@ -23,22 +13,13 @@
     display: flex;
     flex-direction: column;
 }
-.persona_imagen{
-    height: 300px;
-    width: 300px;
-    margin: 0 auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 100%;
-}
-.persona_imagen--roberta{
+.persona__imagen--roberta{
      background-image: url('../img/personas/roberta.jpg')
 }
-.persona_imagen--marcela{
+.persona__imagen--marcela{
      background-image: url('../img/personas/marcela.jpg');
 }
-.persona_imagen--andreia{
+.persona__imagen--andreia{
      background-image: url('../img/personas/andrea.jpg');
 }
 .persona__nombre{
@@ -52,19 +33,100 @@
     font-size: 1.25rem;
     text-transform: lowercase;
 }
- @media screen and (max-width:0){
+ @media screen and (min-width:0){
+    .persona__imagen{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin: 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
     .personas{
-        flex-direction: column;
+        flex-direction: row;
+        margin-left: -5rem;
     }
     .persona{
-        margin-bottom: 2rem;
+        margin-left: 3rem;
+        margin-bottom: 0;
+    }
+    .quienes__descripcion{
+        color: #595959;
+        padding: 0;
+        margin: 0;
+        font-size: 1.25rem;
+        font-weight: 100;
+    }
+    .quienes__titulo{
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
     }
  }
- @media screen and (max-width: 768px){
+ @media screen and (min-width:770px){
+    .persona__imagen{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        margin: 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .personas{
+        flex-direction: row;
+        margin-left: -5rem;
+    }
+    .persona{
+        margin-left: 3rem;
+        margin-bottom: 0;
+    }
+    .quienes__descripcion{
+        color: #595959;
+        padding: 0;
+        margin: 0;
+        font-size: 1.25rem;
+        font-weight: 100;
+    }
+    .quienes__titulo{
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+ }
+ @media screen and (min-width: 1080px){
+    .persona__imagen{
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 100%;
+    }
     .personas{
         flex-direction: row;
     }
     .persona{
         margin-bottom: 0;
+    }
+    .quienes__descripcion{
+        color: #595959;
+        font-size: 1.75rem;
+        font-weight: 100;
+    }
+    .quienes__titulo{
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-size: 3.1875rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
     }
  }
